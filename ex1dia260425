@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) { 
+	    
+	    Scanner zoios = new Scanner(System.in);
+	    
+	    int idade = 17;
+	    char letra = 'M';
+	    boolean cafe = true;
+	    System.out.println("tua idade é:" + " " + idade);
+	    System.out.println("tua letra é:" + " " + letra);
+	    System.out.println("é real que tu tomou café?" + " " + cafe);
+	    
+	}
+}
