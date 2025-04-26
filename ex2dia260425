@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) { 
+	    Scanner zoios = new Scanner(System.in);
+	    
+	    double laranja, banana, soma, descontado;
+	    
+	    
+	    System.out.println("Dê o preço da laranja meu rei");
+	    laranja = zoios.nextDouble();
+	    
+	    System.out.println("Dê o preço da banana truta");
+	    banana = zoios.nextDouble();
+	    
+	    soma = laranja + banana
+	      System.out.println(soma);
+	}
+}
