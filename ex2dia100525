@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) { 
+	    
+	    Scanner zoios = new Scanner(System.in);
+        int myage = 17;
+        int professorage = 21;
+        
+        boolean engual = myage > professorage;
+        System.out.print(engual);
+	}
+}
