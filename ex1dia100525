@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) { 
+	    
+	    Scanner zoios = new Scanner(System.in);
+        String myname = "Milo Goveia Silverio";
+        String friendname = "Guilherme Xoxanna Bassano";
+	    
+	    boolean engual = myname ==  friendname;
+	    System.out.print(engual);
+    }
+}
