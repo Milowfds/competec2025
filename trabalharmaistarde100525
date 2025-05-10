@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner zoios = new Scanner(System.in);
+        double codabacaxi = 1;
+        double codgoiaba = 2;
+        double codlaranja = 3;
+    
+        System.out.println("abacaxi = 1" + " " + "goiaba = 2" + " " + "laranja = 3");
+        System.out.println("Digite o código do produto a qual quer:");
+        int resposta = zoios.nextInt();
+        zoios.nextLine(); // Consome o caractere de nova linha remanescente
+
+        System.out.println("Você escolheu o código: " + resposta);
+    }
+}
+
