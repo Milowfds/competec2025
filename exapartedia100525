@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	String nome ="enzo";
+    String nome2 ="enzo"; 
+    boolean igual = nome == nome2;
+    if(igual){
+    System.out.println(igual + " " + "seus nomes são iguais");}
+    else{
+    System.out.println(igual + " " +  "seus nomes são diferentes");}
+	}
+}
