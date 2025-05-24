@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int contatri;
+        System.out.println("dá um numero ai");
+        int fds = sc.nextInt();
+        
+        for (int numerofd = 1; numerofd <=10; numerofd++ ){
+            contatri = fds*numerofd;
+             System.out.println(contatri);
+        }
+    }
+}
